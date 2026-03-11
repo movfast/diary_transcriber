@@ -82,7 +82,7 @@ Open your Notion page, click **···** → **Add connections** → select your 
 ### 6. Run the app
 
 ```bash
-python voice_transcriber.py
+python transcriber_diary.py
 ```
 
 ---
@@ -114,8 +114,8 @@ Larger Whisper models are more accurate but slower. `medium` is a good balance f
 ## Project Structure
 
 ```
-voice-transcriber/
-├── voice_transcriber.py   # Main application
+diary-transcriber/
+├── transcriber_diary.py   # Main application
 ├── .env                   # API keys (never commit this!)
 ├── .gitignore
 └── README.md
